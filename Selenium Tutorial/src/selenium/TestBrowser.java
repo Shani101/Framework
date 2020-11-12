@@ -25,11 +25,12 @@ public class TestBrowser {
 //capabilities.setCapability(CapabilityType.BROWSER_NAME, "IE");,
 
 				
- //InternetExplorerDriver driver = new InternetExplorerDriver(capabilities);
+//InternetExplorerDriver driver = new InternetExplorerDriver(capabilities);
  EdgeDriver driver = new EdgeDriver();
  driver.get("https://way2automation.com");
  
-
+// This is new commit from Shani
+ driver.notify();
 	}
 
 }
